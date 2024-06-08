@@ -6,14 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- import the css style file -->
+    <!-- the importing order MATTERS!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href = "./main.css"> 
+    
 </head>
 
 <body>
     <div id="root">
         <div class="header">
             <div class="nav__upper">
-                <a href=""><img class="upper__left" src="https://image.flaticon.com/icons/png/512/61/61972.png"></a>
+                <a href=""><img class="upper__left" src="https://t3.ftcdn.net/jpg/06/11/35/30/360_F_611353018_JTB58dPKiiCukq9nQ0oUGJgdJTXwKSxD.jpg"></a>
                 <div class="upper__right">
                     <a href="" class="sign-in">Sign in</a>
                     <a href="" class="get-started">Get started</a>
@@ -70,22 +73,22 @@
             <div class="external_links">
                 <ul>more articles:
                     <li>
-                        <a href="">Lorem ipsum dolor <span class="material-icons">open_in_new</span></a>
+                        <a href="">Lorem ipsum dolor <span class="material-icons-outlined">open_in_new</span></a>
                     </li>
                     <li>
-                        <a href="">Dictumst vestibulum rhonocus<span class="material-icons">open_in_new</span></a>
+                        <a href="">Dictumst vestibulum rhonocus<span class="material-icons-outlined">open_in_new</span></a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="grid">
-            <a href="">Lorem ipsum: dolor sit amet consectetur adipiscing elit</a>
-            <a href="">Viverra aliquet: eget sit amet tellus cras adipiscing enim.</a>
-            <a href="">Vestibulum mattis: ullamcorper velit sed ullamcorper morbi tincidunt ornare.</a>
-            <a href="">Phasellus vestibulum: lorem sed risus ultricies tristique nulla aliquet.</a>
+            <div class="grid_item"> <a href="">Lorem ipsum: dolor sit amet consectetur adipiscing elit</a></div>
+            <div class="grid_item"> <a href="">Viverra aliquet: eget sit amet tellus cras adipiscing enim.</a></div>
+            <div class="grid_item"> <a href="">Vestibulum mattis: ullamcorper velit sed ullamcorper morbi tincidunt ornare.</a></div>
+            <div class="grid_item"> <a href="">Phasellus vestibulum: lorem sed risus ultricies tristique nulla aliquet.</a></div>
         </div>
         <div class="footer">
-            <img class="footer__left" src="https://image.flaticon.com/icons/png/512/61/61972.png">
+            <img class="footer__left" src="https://t3.ftcdn.net/jpg/06/11/35/30/360_F_611353018_JTB58dPKiiCukq9nQ0oUGJgdJTXwKSxD.jpg">
             <div class="footer__right">
                 <a href="" class="about">About</a>
                 <a href="" class="help">Help</a>

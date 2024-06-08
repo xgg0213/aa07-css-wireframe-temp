@@ -1,9 +1,51 @@
+#root {
+    width: 100%;
+    margin: auto;
+    /* border: 2px black solid; */
+}
+
+.nav__upper {
+    width: 90%;
+    margin:auto;
+    margin-bottom: 20px;
+    /* margin-left: 300px; */
+    /* border: 2px black solid; */
+}
 .upper__left {
     display: inline-block; /*make home and sign-in, get started the same height*/
+    width: 30px;
+    height: 30px;
 }
 
 .upper__right {
     display:inline-block; /*make home and sign-in, get started the same height*/
+    /* margin-right: 300px; */
+    margin-left:1800px;
+    /* border: 2px solid black */
+}
+.sign-in {
+    color: green;
+    margin-left: 10px;
+}
+
+.get-started {
+    color: green;
+    border: 1px solid green;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.nav__lower {
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    opacity: 0.6;
 }
 
 .content {
@@ -15,7 +57,7 @@
 div > h1 {
     /* border:2px solid black; */
     width:fit-content;
-    width: 800px;
+    width: 900px;
     margin:auto;
     margin-bottom:20px;
     margin-top:20px;
@@ -25,7 +67,7 @@ div > h1 {
 
 div > h2 {
     width:fit-content;
-    width: 800px;
+    width: 900px;
     margin:auto;
     margin-bottom:20px;
     margin-top:20px;
@@ -36,7 +78,7 @@ div > h2 {
 div > p {
     /* border:2px solid black; */
     width:fit-content;
-    width: 800px;
+    width: 900px;
     margin:auto;
     margin-bottom:20px;
     margin-top:20px;
@@ -45,10 +87,80 @@ div > p {
 }
 
 .main__img {
-    width: 800px;
+    width: 900px;
     height: 800px;
 }
 
 .external_links {
-    
+    text-align: left;
+    margin-left: 850px;
+    color: black;
+}
+
+.material-icons-outlined {
+    color:black;
+    /* how to change the size of this icon? */
+    font-size: 15px;
+}
+
+div > a {
+    color:black;
+    text-decoration: none;
+
+}
+
+.external_links li a {
+    color: blue
+}
+
+.grid {
+    display: grid;
+    font-size: 15px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    text-align: center;
+    row-gap: 80px;
+    /* border: 2px solid black; */
+    width: 50%;
+    margin-left: 750px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.grid_item {
+    text-align:left;
+}
+.grid_item a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.footer__left{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer__right{
+    display:inline-block;
+    margin-left:1800px;
+}
+
+.about {
+    color: black;
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.help {
+    color: black;
+    opacity: 0.6;
+    margin-left: 40px;
 }
