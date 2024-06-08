@@ -5,3 +5,50 @@
 .upper__right {
     display:inline-block; /*make home and sign-in, get started the same height*/
 }
+
+.content {
+    margin:auto;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+div > h1 {
+    /* border:2px solid black; */
+    width:fit-content;
+    width: 800px;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size: 50px;
+    text-align:justify;
+}
+
+div > h2 {
+    width:fit-content;
+    width: 800px;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size: 40px;
+    text-align:justify;
+}
+
+div > p {
+    /* border:2px solid black; */
+    width:fit-content;
+    width: 800px;
+    margin:auto;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-size: 25px;
+    text-align:justify;
+}
+
+.main__img {
+    width: 800px;
+    height: 800px;
+}
+
+.external_links {
+    
+}
