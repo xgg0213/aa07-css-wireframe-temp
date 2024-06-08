@@ -1,0 +1,7 @@
+.upper__left {
+    display: inline-block; /*make home and sign-in, get started the same height*/
+}
+
+.upper__right {
+    display:inline-block; /*make home and sign-in, get started the same height*/
+}
